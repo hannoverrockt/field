@@ -1,1 +1,1 @@
-// everybody needs a main function
+// everybody needs a main function or two
