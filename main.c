@@ -3,7 +3,7 @@
 #include <stdint.h>
 
 #include "observer.h"
-
+#include "field_works.h"
 
 
 
@@ -12,18 +12,17 @@
 int main()
 {
 /***************** GLOBAL VARIABLES **********************/
-    uint8_t field[11][11];
+    uint8_t field[10][10];
 
 
 /***************** PROGRAMM CODE *************************/
-
+/***************** INIT PHASE ****************************/
     printf("Field(s) starting screen!\n");
+    printf("Press enter to continue.\n");
+    init_field( field , sizeof(field));
 
-    printf("Size of the array: %d\n", sizeof(field));
-    printf("Size of the arrayelement_1: %d\n", sizeof(field[0]));
-    printf("\n\n");
-    init_field(field , sizeof(field));
-
+    getchar();
+    clear_screen();
     print_fields( field , sizeof(field) , sizeof(field[0]) );
 
     return 0;

@@ -1,16 +1,20 @@
 # depslib dependency file v1.0
-1450025008 source:/home/mattes/Projekte/42_field/field/main.c
+1450028727 source:/home/mattes/Projekte/42_field/field/main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
 	"observer.h"
+	"field_works.h"
 
-1450023959 /home/mattes/Projekte/42_field/field/observer.h
+1450027846 /home/mattes/Projekte/42_field/field/observer.h
 
-1450024837 source:/home/mattes/Projekte/42_field/field/observer.c
+1450028272 source:/home/mattes/Projekte/42_field/field/observer.c
 	<stdint.h>
 	<stdio.h>
 
-1450025094 source:/home/mattes/Projekte/42_field/field/field_works.c
+1450027500 source:/home/mattes/Projekte/42_field/field/field_works.c
 	<stdint.h>
+	<stdio.h>
+
+1450025572 /home/mattes/Projekte/42_field/field/field_works.h
 
