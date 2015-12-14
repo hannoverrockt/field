@@ -8,6 +8,7 @@
 *********************************************************************************************/
 #include <stdint.h>
 #include <stdio.h>
+#include "observer.h"
 
 
 void print_fields( uint8_t *field , int number_of_elements, int elements_of_a_row )
