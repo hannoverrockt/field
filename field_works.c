@@ -5,6 +5,7 @@
 *   Function:
 *       init_field
 *       init_last_changed_position
+*       update_field
 *
 *********************************************************************************************/
 #include <stdint.h>
@@ -29,7 +30,7 @@ void init_last_changed_position(struct arrow_position point)
 
 
 
-update_field( uint8_t *field , int number_of_elements, int elements_of_a_row )
+void update_field( uint8_t *field , int number_of_elements, int elements_of_a_row, struct arrow_position last_position)
 {
     //TODO: Algorithm the change the field
 }
