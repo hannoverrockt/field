@@ -34,13 +34,12 @@ int main()
     uint32_t iterations;
     for(iterations = 0; iterations < 100; iterations++)
     {
-
         clear_screen();
         printf("Iterationcounter: %d\n", iterations);
         update_field( field , sizeof(field) , sizeof(field[0]), last_changed_position);
         print_fields( field , sizeof(field) , sizeof(field[0]) );
         usleep(50000); // calculated everything with 20 Hz
-
     }
+
     return 0;
 }
