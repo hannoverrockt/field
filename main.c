@@ -13,7 +13,7 @@
 int main()
 {
 /***************** GLOBAL VARIABLES **********************/
-    uint8_t field[10][10];
+    uint8_t field[15][20];
     struct arrow_position last_changed_position;
 
 /***************** PROGRAMM CODE *************************/
