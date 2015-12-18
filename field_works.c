@@ -40,6 +40,6 @@ void init_last_changed_position(uint8_t *field , int number_of_elements, int ele
 void update_field( uint8_t *field , int number_of_elements, int elements_of_a_row, struct arrow_position* last_position)
 {
     //TODO: Algorithm the change the field
-    // Here it is just a test.
+    // Die Zeile darunter ist nur zum Testen ob das mit der Parameterübergabe klappt.
     *(field + ((elements_of_a_row * last_position->y) + last_position->x)) = rand(time(NULL)) % 4;
 }
